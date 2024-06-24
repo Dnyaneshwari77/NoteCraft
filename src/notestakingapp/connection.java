@@ -18,7 +18,7 @@ public class connection {
     {
          try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/NoteApp", "root", "Kishor123");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/NoteApp", "root", "####"); //replace #### by your db password
 
             if (con != null) {
                 System.out.print("Connection created successfully\n");
